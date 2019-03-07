@@ -1,4 +1,6 @@
+# map blog name to blog object
 blogs = dict()
+
 
 def menu():
     # Show the user the available blog's
@@ -7,6 +9,10 @@ def menu():
     # Exit
     print_blogs()
 
+
 def print_blogs():
-    # Print the available blog's
-    print('Blogs')
+    for key, blog in blogs.items():
+        print('- {}'.format(blog))
+
+
+menu()
