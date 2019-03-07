@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="Unittests in tests" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e911bfbc-73d3-4055-8c3d-f277a91b36b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -29,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="154">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -247,15 +252,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_create_blog - 2019.03.07 at 14h 38m 16s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_create_blog - 2019.03.07 at 14h 39m 47s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_create_blog - 2019.03.07 at 14h 40m 01s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 41m 14s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
@@ -275,6 +271,15 @@
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 45m 23s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_app_test_AppTest - 2019.03.07 at 14h 45m 51s.xml">
+      <configuration name="Unittests for app_test.AppTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 46m 35s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 47m 02s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
   </component>
@@ -359,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="154">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
