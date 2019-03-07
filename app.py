@@ -1,13 +1,10 @@
-# map blog name to blog object
+MENU_PROMPT = 'Enter "c" to create a blog, "l" to list blogs, "r" to read one, "p" to create post or "q" to quit'
 blogs = dict()
 
 
 def menu():
-    # Show the user the available blog's
-    # Let user make a choice
-    # Do something with that choice
-    # Exit
     print_blogs()
+    selection = input(MENU_PROMPT)
 
 
 def print_blogs():
@@ -15,4 +12,3 @@ def print_blogs():
         print('- {}'.format(blog))
 
 
-menu()
