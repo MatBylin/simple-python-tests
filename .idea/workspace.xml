@@ -20,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="763">
               <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
+            <state relative-caret-position="990">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -145,6 +145,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in tests">
+    <configuration name="Unittests for app_test.AppTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="automated-testing-with-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for app_test.AppTest.test_ask_create_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="automated-testing-with-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,6 +173,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="automated-testing-with-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_menu_call_create_blog&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for app_test.AppTest.test_menu_prints_prompt" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="automated-testing-with-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,34 +198,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;app_test.AppTest.test_menu_prints_prompt&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for app_test.AppTest.test_print_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="automated-testing-with-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;app_test.AppTest.test_print_post&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for app_test.AppTest.test_print_posts" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="automated-testing-with-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;app_test.AppTest.test_print_posts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -218,18 +218,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in tests" />
-      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_posts" />
-      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_post" />
       <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_prints_prompt" />
       <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_create_post" />
+      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_call_create_blog" />
+      <item itemvalue="Python tests.Unittests for app_test.AppTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in tests" />
+        <item itemvalue="Python tests.Unittests for app_test.AppTest" />
+        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_call_create_blog" />
         <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_create_post" />
         <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_prints_prompt" />
-        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_post" />
-        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_posts" />
       </list>
     </recent_temporary>
   </component>
@@ -247,34 +247,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_app_test_AppTest_test_print_post - 2019.03.07 at 14h 25m 15s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_print_post" configurationId="tests" />
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_create_blog - 2019.03.07 at 14h 38m 16s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_print_post - 2019.03.07 at 14h 25m 42s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_print_post" configurationId="tests" />
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_create_blog - 2019.03.07 at 14h 39m 47s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_print_post - 2019.03.07 at 14h 25m 54s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_print_post" configurationId="tests" />
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_create_blog - 2019.03.07 at 14h 40m 01s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_print_post - 2019.03.07 at 14h 26m 12s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_print_post" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_print_post - 2019.03.07 at 14h 27m 01s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_print_post" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 27m 50s.xml">
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 41m 14s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 28m 01s.xml">
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_create_blog - 2019.03.07 at 14h 41m 42s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_create_blog" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 41m 49s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_prints_prompt - 2019.03.07 at 14h 28m 19s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_prints_prompt" configurationId="tests" />
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 42m 18s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_prints_prompt - 2019.03.07 at 14h 28m 45s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_prints_prompt" configurationId="tests" />
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 43m 51s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 28m 48s.xml">
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 44m 35s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.03.07 at 14h 45m 23s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
   </component>
@@ -352,15 +352,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
+        <state relative-caret-position="763">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
+        <state relative-caret-position="990">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
